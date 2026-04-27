@@ -1,0 +1,2 @@
+1. The bug was that values inputted into the two entry boxes used on the page for calculateSum return string values. So, the two numbers being added are concatenated instead of added as integers.
+2. I would fix it by converting the num1 and num2 variables to the number data type after their values are retrieved in printSum. This would be done by wrapping the retrieved values with Number() to convert the data type properly so that calculate sum performs arithmetic rather than concatenation.
